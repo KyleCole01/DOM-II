@@ -1,6 +1,7 @@
 // Your code goes here
  let navLink = document.querySelectorAll('nav a')[0];
  let navLink2 = document.querySelectorAll('nav a')[1];
+ let navLink3 = document.querySelectorAll('nav a')[2];
  let heading = document.querySelector('.logo-heading');
     
  
@@ -34,5 +35,12 @@ heading.addEventListener('dblclick',()=>{
     }
     else{
         heading.style.transform = 'scale(1)'
+    }
+})
+navLink3.addEventListener('keydown' , () => {
+    if(navLink3.style.color !== 'yellow'){
+        navLink3.style.color = 'yellow';
+    }else{
+        navLink3.style.color = 'blue';
     }
 })
