@@ -6,6 +6,7 @@
     
  
  navLink.addEventListener('mouseenter' ,()=>{
+     
         navLink.style.color = 'green';
         navLink.style.transform = 'scale(1.5)';
         navLink.style.transition = 'transform 0.3s'
